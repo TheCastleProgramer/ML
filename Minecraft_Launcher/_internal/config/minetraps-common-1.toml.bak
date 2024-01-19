@@ -1,0 +1,6 @@
+
+#World
+[world]
+	#Quicksand/Mud/Toxin generation in the world
+	world_generation = true
+
