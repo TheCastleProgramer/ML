@@ -34,7 +34,7 @@ def main(page: ft.Page):
 
     page.horizontal_alignment = "center"
     page.vertical_alignment = ""
-    jugar_button = FilledButton(text="Jugar", width=150, height=50, on_click=Minecraft_install_and_run)
+    jugar_button = ElevatedButton(text="Jugar", width=150, height=50, on_click=Minecraft_install_and_run, bgcolor="green", color="white")
     #cambiar_nombre = FilledButton(text="Cambiar nombre", width=150, height=50, on_click=Minecraft_install_and_run)
     page.add(jugar_button)
 
